@@ -1,0 +1,10 @@
+**Band Name Generator**
+
+This Python script prompts users to input their pet's name and city, then creatively combines the two to generate a unique band name. A fun and simple tool for generating imaginative band name ideas.
+
+
+
+print('Welcome to the band name generator')
+pet = input('Please enter your pet name: ')
+city = input('Enter your city name: ')
+print('Your band name would be ' + city + " " + pet)
